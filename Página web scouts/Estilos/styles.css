@@ -1,0 +1,284 @@
+.toolbar {
+    background-image: linear-gradient(to right, #d42828, #26a126, #f0ff1c);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.toolbar a {
+    display: inline-block;
+    margin-right: 5px;
+    color: rgb(4, 51, 3);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.toolbar a:last-child {
+    display: inline-block;
+    color: rgb(4, 51, 3);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.container {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.column-left {
+    flex: 0 0 calc(60% - 25px);
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.column-right {
+    flex: 1;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.RRSS {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+}
+
+.instagram img {
+    width: 60px;
+}
+
+
+
+.facebook {
+    display: flex;
+    align-items: center;
+}
+
+.facebook img {
+    width: 75px;
+}
+
+.parrafo_headline {
+    border: 10px;
+    flex: 1;
+    margin: 0;
+    color: #ff291e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+
+
+.btnApuntar {
+
+    background-color: #df3c2d;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 15px;
+    padding: 32px 76px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #b32d24;
+    margin: 0 auto;
+
+}
+
+.btnApuntar:hover {
+    background-color: #eb675e;
+}
+
+.btnApuntar:active {
+    position: relative;
+    top: 1px;
+}
+
+html {
+    background-image: linear-gradient(to bottom, #9bd3ae, #d39ac0);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body {
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    min-width: 450px;
+}
+
+.texto_informativo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+/** DE AQUI ABAJO ES FOOTER**/
+
+.RRSS_footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.instagram_footer {
+    display: flex;
+    align-items: center;
+}
+
+.instagram_footer img {
+    width: 60px;
+}
+
+
+
+.facebook_footer {
+    display: flex;
+    align-items: center;
+}
+
+.facebook_footer img {
+    width: 75px;
+}
+
+.btnFooter {
+
+    background-color: #df3c2d;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 15px;
+    padding: 32px 76px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #b32d24;
+    margin: 0 auto;
+
+}
+
+.btnFooter:hover {
+    background-color: #eb675e;
+}
+
+.btnFooter:active {
+    position: relative;
+    top: 1px;
+}
+
+.footer {
+    background-color: lightgray;
+    margin-top: 25px;
+}
+
+.footer_full {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.primer_footer {
+    width: 20%;
+    height: 100%;
+}
+
+.primer_footer p {
+    margin: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.segundo_footer {
+    border-left: 1px solid black;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img_jerez {
+    width: 90px;
+    height: 110px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.img_SCA {
+    width: 120px;
+    height: 110px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.img_MSC {
+    width: 120px;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tercer_footer {
+    width: 20%;
+    height: 100%;
+}
+
+.cuarto_footer {
+    width: 10%;
+    height: 100%;
+}
+
+.autor {
+    background-color: lightgray;
+    font-size: small;
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .column-left {
+        flex: 1;
+        margin-right: 0;
+    }
+
+    .column-right {
+        flex: 1;
+    }
+}
